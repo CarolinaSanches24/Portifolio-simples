@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.getElementById("anoAtual").innerText = anoAtual;
 
-  const textContainer = document.querySelector(".text-container");
+  const textContainer = document.querySelector(".perfil__nome");
   const text = "Carolina Sanches";
 
   for (let i = 0; i < text.length; i++) {
