@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Carolina Sanches" />
+    <meta
+      name="description"
+      content="Site pessoal portifólio simples desenvolvido em HTML5 e CSS3"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="shortcut icon" type="image/png" href="./assets/img/avatar.jpg" />
+    <title>Carolina Sanches</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="https://github.com/CarolinaSanches24" class="header__link"
+        ><img
+          class="icone"
+          alt="gihub"
+          src="./assets/icon/icon-github.svg"
+          alt=""
+      /></a>
+      <a href="https://www.linkedin.com/in/carol-sanches-moraes/" class="header__link"
+        ><img
+          class="icone"
+          alt="linkedin"
+          src="./assets/icon/icon-linkedin.svg"
+          alt=""
+      /></a>
+      <a href="https://wa.me/qr/QKM33WTJHOH4G1" class="header__link"
+        ><img
+          class="icone"
+          alt="contato"
+          src="./assets/icon/icon-contato.svg"
+          alt=""
+      /></a>
+    </header>
+    <main class="main">
+      <div class="perfil">
+        <img class="perfil__foto" src="./assets/img/avatar.jpg" alt="" />
+        <div class="text-container">
+            <span class="text"></span>
+          </div>
+        <p class="perfil__descricao">
+          Sou uma profissional recém-formada em Licenciatura em Informática,
+          trazendo consigo uma sólida bagagem de conhecimentos em linguagens de
+          programação, banco de dados e desenvolvimento web.
+        </p>
+      </div>
+      <section class="section">
+        <h2 class="section__titulo">Meus Projetos</h2>
+        <article class="projeto">
+          <h3 class="projeto__titulo">Mari Artesanatos</h3>
+          <p class="projeto_descricao">
+            É um site que esta sendo desenvolvido em formato e-commerce
+          </p>
+          <img class="projeto_gif" src="./assets/img/marifuxicos.gif" alt="" title="exibição da pagina Mari Fuxicos"/>
+        <button class="projeto__botaoVisualizar" id="visualizarPageMari">Visualizar Projeto</button>
+        <a href="https://github.com/CarolinaSanches24/Mari_Lima_Artesanato" class="projeto__link">Ver código</a>
+        </article>
+        <article class="projeto">
+          <h3 class="projeto__titulo">Page One Piece</h3>
+          <p class="projeto_descricao">
+            Pagina desenvolvida durante a semana do programador Dev em Dobro
+          </p>
+          <img class="projeto_gif" src="./assets/img/onepiece.gif" alt="" title="Exibição da Page One Piece"/>
+          <button class="projeto__botaoVisualizar" id="visualizarPageOnePiece">Visualizar Projeto</button>
+          <a href="https://github.com/CarolinaSanches24/ProjetoOnePiece" class="projeto__link">Ver código</a>
+        </article>
+        <article class="projeto">
+          <h3 class="projeto__titulo">Page Burguer</h3>
+          <p class="projeto_descricao">
+            Página Front-end desenvolvida para treinar html e css
+          </p>
+          <img class="projeto_gif" src="./assets/img/burguer.gif" alt="" title="Exibição da Page Burguer"/>
+          <button class="projeto__botaoVisualizar" id="visualizarPageBurguer">Visualizar Projeto</button>
+        <a href="https://github.com/CarolinaSanches24/Hamburgueria" class="projeto__link">Ver código</a>
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="class="footer__texto">
+        &copy; <span id="anoAtual" ></span> Carolina Sanches.<img
+          class="icone icone--texto"
+          src="./assets/icon/code.svg"
+          alt="icone code"
+        />
+      </p>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
